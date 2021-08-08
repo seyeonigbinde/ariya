@@ -1,7 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import Header from './Header'
+import Footer from './Footer'
 
 const Homepage = () => {
 
@@ -13,10 +14,11 @@ const Homepage = () => {
             <Header />
             <div className="banner_bg">
                 <div className="banner_caption">
-                    <h1>Find Local Event Service Providers.</h1>
+                    <h1><b>Find Local Event Service Providers.</b></h1>
+                    <h5>Nigeria No.1 Marketplace for Event Planners</h5>
                     <form>
                         <label>
-                        <input type="search" className="home_searchform" placeholder="Search Here" />
+                            <input type="search" className="home_searchform" placeholder="Search Here" />
                         Search</label>
                     </form>
                 </div>
@@ -45,48 +47,49 @@ const Homepage = () => {
                         <p>Comedians, Music Bands, Wedding Bands, DJs, Singers, Dancing Groups ...</p>
                     </Link>
                     <Link className="categories_list">
-                    <i class="fas fa-gift fa-5x"></i>
+                        <i class="fas fa-gift fa-5x"></i>
                         <h4>Decoration</h4>
                         <p>Florists, Wedding Florists , Party Decorations, Wedding Decorators, Fireworks ...</p>
                     </Link>
                     <Link className="categories_list">
-                    <i class="fas fa-cut fa-5x"></i>
+                        <i class="fas fa-cut fa-5x"></i>
                         <h4>Salon</h4>
                         <p>Salons, Bridal Hair Stylist, Female Dressing , Male Dressing , Makeup Services ... </p>
                     </Link>
                     <Link className="categories_list">
-                    <i class="far fa-lightbulb fa-5x"></i>
+                        <i class="far fa-lightbulb fa-5x"></i>
                         <h4>Equipment</h4>
                         <p>Outdoor Tents, Wedding Tents, Party Tent Rentals, Party Lights, Event Tables ... </p>
                     </Link>
                     <Link className="categories_list">
-                    <i class="fas fa-car fa-5x"></i>
+                        <i class="fas fa-car fa-5x"></i>
                         <h4>Transportation</h4>
                         <p>Wedding Cars, Transport Services, Limousine Services, Rent Vehicles etc</p>
                     </Link>
                 </div>
             </section>
             <section className="howitworks">
-            <h3>How It Works</h3>
-            <section className="howitworks_container">
-                <div className="howitworks_items">
-                    <h4>Step 1</h4>
-                    <p>Create an Event</p>
-                </div>
-                <div className="howitworks_items">
-                    <h4>Step 2</h4>
-                    <p>Search & Select Service Providers</p>
-                </div>
-                <div className="howitworks_items">
-                    <h4>Step 3</h4>
-                    <p>Confirm and Place the Order</p>
-                </div>
-                <div className="howitworks_items">
-                    <h4>Step 4</h4>
-                    <p>Enjoy the Event & Submit a Feedback</p>
-                </div>
+                <h3>How It Works</h3>
+                <section className="howitworks_container">
+                    <div className="howitworks_items">
+                        <h4>Step 1</h4>
+                        <p>Create an Event</p>
+                    </div>
+                    <div className="howitworks_items">
+                        <h4>Step 2</h4>
+                        <p>Search & Select Service Providers</p>
+                    </div>
+                    <div className="howitworks_items">
+                        <h4>Step 3</h4>
+                        <p>Confirm and Place the Order</p>
+                    </div>
+                    <div className="howitworks_items">
+                        <h4>Step 4</h4>
+                        <p>Enjoy the Event & Submit a Feedback</p>
+                    </div>
+                </section>
             </section>
-            </section>
+            <Footer />
         </section>
 
     )
