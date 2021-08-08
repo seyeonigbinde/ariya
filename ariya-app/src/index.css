@@ -22,7 +22,7 @@ color: #4f4f4f;
 *{
   box-sizing: border-box; 
    max-width:100%; 
-   border: 1px solid red; 
+   /* border: 1px solid red;  */
   margin: 0 auto;
  
 }
@@ -91,7 +91,8 @@ nav{
 }
 .banner_caption{
   background-color: rgba(249, 231, 159, 0.6);
-  margin: 15% 2%;
+  position: absolute;
+  margin: 15% 1%;
   color: #095580;
   width: 40%;
   font-weight: bold;
@@ -103,9 +104,10 @@ nav{
 .categories{
   width: 85%;
 }
-.categories h3{
+.categories h2{
   padding: 2%;
   text-align: center;
+  color: #095580;
 }
 .categories_container{
   display: flex;
@@ -117,6 +119,7 @@ nav{
 .categories_list{
   width: 25%;
   padding: 3% 1%;
-  color: #4f4f4f;
+  color: #095580;
   text-align: center;
+
 }
