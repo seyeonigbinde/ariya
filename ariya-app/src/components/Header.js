@@ -7,9 +7,10 @@ const Header = () => {
 
     return (
         <header>
-            <div className="header_logo">
-                <div>
-                    <img src="" alt=""/>
+            <div className="header_banner">
+                <div className="header_logo">
+                    {/* <img src="" alt=""/> */}
+                    <h1>ARIYA</h1>
                 </div>
                 <div className="header_signup">
                     <button>User Signup</button>
