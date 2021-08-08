@@ -26,7 +26,6 @@ const Header = () => {
                 <Link href="#">Decorations </Link>
                 <Link href="#">Make-up Artists </Link>
             </nav>
-
         </header>
     )
 }

@@ -33,7 +33,10 @@ h2{
   font-size: 2.0rem;
 }
 h3{
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+}
+h4{
+  font-size: 1.6rem;
 }
 p{
   font-size: 1rem;
@@ -96,4 +99,24 @@ nav{
 .home_searchform{
   width: 90%;
   padding: 2% 0;
+}
+.categories{
+  width: 85%;
+}
+.categories h3{
+  padding: 2%;
+  text-align: center;
+}
+.categories_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2% 8%;
+}
+.categories_list{
+  width: 25%;
+  padding: 3% 1%;
+  color: #4f4f4f;
+  text-align: center;
 }
