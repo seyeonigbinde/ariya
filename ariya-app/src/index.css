@@ -22,7 +22,7 @@ color: #4f4f4f;
 *{
   box-sizing: border-box; 
    max-width:100%; 
-   /* border: 1px solid red;  */
+   border: 1px solid red; 
   margin: 0 auto;
  
 }
@@ -39,7 +39,7 @@ h4{
   font-size: 1.6rem;
 }
 p{
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -98,8 +98,9 @@ nav{
   font-weight: bold;
 }
 .home_searchform{
-  width: 90%;
+  width: 80%;
   padding: 2% 0;
+  margin: 3% 1%;
 }
 .categories{
   width: 85%;
@@ -121,5 +122,29 @@ nav{
   padding: 3% 1%;
   color: #095580;
   text-align: center;
-
+}
+.howitworks{
+  margin-top: 4%;
+  width: 80%;
+  background-color: #095580;
+  box-shadow: 6px 4px 10px #095580;
+  border-radius: 5px;
+}
+.howitworks h3{
+  text-align: center;
+  color: #fff;
+  padding: 2% 0;
+}
+.howitworks_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.howitworks_items{
+  width: 20%;
+  padding: 2% 2%;
+  margin-top: 2%;
+  color: #fff;
+  text-align: center;
 }

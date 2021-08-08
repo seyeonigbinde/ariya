@@ -50,21 +50,42 @@ const Homepage = () => {
                         <p>Florists, Wedding Florists , Party Decorations, Wedding Decorators, Fireworks ...</p>
                     </Link>
                     <Link className="categories_list">
-                        <img src="" alt=""/>
+                    <i class="fas fa-cut fa-5x"></i>
                         <h4>Salon</h4>
                         <p>Salons, Bridal Hair Stylist, Female Dressing , Male Dressing , Makeup Services ... </p>
                     </Link>
                     <Link className="categories_list">
-                    <i class="fas fa-chair"></i>
+                    <i class="far fa-lightbulb fa-5x"></i>
                         <h4>Equipment</h4>
                         <p>Outdoor Tents, Wedding Tents, Party Tent Rentals, Party Lights, Event Tables ... </p>
                     </Link>
                     <Link className="categories_list">
-                    <i class="fas fa-car-side"></i>
+                    <i class="fas fa-car fa-5x"></i>
                         <h4>Transportation</h4>
                         <p>Wedding Cars, Transport Services, Limousine Services, Rent Vehicles etc</p>
                     </Link>
                 </div>
+            </section>
+            <section className="howitworks">
+            <h3>How It Works</h3>
+            <section className="howitworks_container">
+                <div className="howitworks_items">
+                    <h4>Step 1</h4>
+                    <p>Create an Event</p>
+                </div>
+                <div className="howitworks_items">
+                    <h4>Step 2</h4>
+                    <p>Search & Select Service Providers</p>
+                </div>
+                <div className="howitworks_items">
+                    <h4>Step 3</h4>
+                    <p>Confirm and Place the Order</p>
+                </div>
+                <div className="howitworks_items">
+                    <h4>Step 4</h4>
+                    <p>Enjoy the Event & Submit a Feedback</p>
+                </div>
+            </section>
             </section>
         </section>
 
