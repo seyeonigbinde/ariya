@@ -43,9 +43,32 @@ code {
     monospace;
 }
 header{
+  background-color:  #095580;
+  color: #fff;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+  padding: 2% 2%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.header_logo{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #eee;
- 
+}
+.header_signup{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
 }

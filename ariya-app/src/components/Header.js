@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Header = () => {
 
@@ -6,24 +7,24 @@ const Header = () => {
 
     return (
         <header>
-            <div>
+            <div className="header_logo">
                 <div>
                     <img src="" alt=""/>
                 </div>
-                <div>
+                <div className="header_signup">
                     <button>User Signup</button>
                     <button>Service Provider Signup</button>
                     <button>Login</button>
                 </div>
             </div>
-            <div>
-                <a href="#">Catering Services </a>
-                <a href="#">Media Services </a>
-                <a href="#">Venues </a>
-                <a href="#">Entertainment </a>
-                <a href="#">Decorations </a>
-                <a href="#">Make-up Artists </a>
-            </div>
+            <nav>
+                <Link href="#">Catering Services </Link>
+                <Link href="#">Media Services </Link>
+                <Link href="#">Venues </Link>
+                <Link href="#">Entertainment </Link>
+                <Link href="#">Decorations </Link>
+                <Link href="#">Make-up Artists </Link>
+            </nav>
 
         </header>
     )
