@@ -53,7 +53,7 @@ const Homepage = () => {
                     </Link>
                     <Link className="categories_list">
                         <i class="fas fa-cut fa-5x"></i>
-                        <h4>Salon</h4>
+                        <h4>Salon Services</h4>
                         <p>Salons, Bridal Hair Stylist, Female Dressing , Male Dressing , Makeup Services ... </p>
                     </Link>
                     <Link className="categories_list">
