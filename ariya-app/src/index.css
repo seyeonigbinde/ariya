@@ -73,6 +73,7 @@ button{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .header_logo{
   padding: 0% 2%;
@@ -82,12 +83,17 @@ button{
   width: 40%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 nav{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 1% 2%;
+}
+.responsive_nav{
+  display: none;
 }
 .dropdown {
   position: relative;
@@ -98,7 +104,7 @@ nav{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 9rem;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -214,4 +220,58 @@ footer{
   flex-wrap: wrap;
   width: 60%;
   padding: 2% 0;
+}
+
+@media screen and (max-width: 700px) {
+  h4{
+    font-size: 1.0rem;
+  }
+  p{
+    font-size: 0.6rem;
+  }
+  .header_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_banner{
+    flex-direction: column;
+  }
+  .header_signup{
+    width: 100%;
+    padding: 0% 0%;
+  }
+  nav{
+    justify-content: space-evenly;
+  }
+  .responsive_nav{
+    display: inline;
+    padding-left: 15%;
+  }
+  .desktop_nav{
+    display: none;
+  }
+  .banner_bg{
+    height: 60vh;
+  }
+  .banner_caption{
+    width: 85%;
+  }
+  .banner_caption h1{
+    font-size: 2.2rem;
+  }
+  .categories h2{
+    font-size: 1.8rem;
+  }
+  .categories_list{
+    width: 45%;
+  }
+  .howitworks_items, 
+  .footer_items{
+    width: 65%;
+   margin-left: 20%;
+  }
+  .footer_items a{
+    font-size: 0.7rem;
+  }
 }
