@@ -18,7 +18,7 @@ const initialFormErrors = {
   password: '',
 }
 
-const Signup = () => {
+const UserSignup = () => {
   const { push } = useHistory();
 
   const [formValues, setFormValues] = useState(initialFormValues)
@@ -104,4 +104,4 @@ const Signup = () => {
   );
 }
 
-export default Signup
+export default UserSignup

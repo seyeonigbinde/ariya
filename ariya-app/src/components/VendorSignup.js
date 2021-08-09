@@ -12,13 +12,13 @@ const initialFormValues = {
 }
 
 const initialFormErrors = {
-    businessName: '',
+  businessName: '',
   phone: '',
   email: '',
   password: '',
 }
 
-const Signup = () => {
+const VendorSignup = () => {
   const { push } = useHistory();
 
   const [formValues, setFormValues] = useState(initialFormValues)
@@ -104,4 +104,4 @@ const Signup = () => {
   );
 }
 
-export default Signup
+export default VendorSignup

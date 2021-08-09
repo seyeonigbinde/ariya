@@ -28,9 +28,9 @@ const Header = () => {
                     </nav>
                 </div>
                 <div className="header_signup">
-                    <button>User Signup</button>
-                    <button>Vendor Signup</button>
-                    <button>Login</button>
+                    <button><Link to="/signup/user-signup">User Signup</Link></button>
+                    <button><Link to="/signup/vendor-signup">Vendor Signup</Link></button>
+                    <button><Link>Login</Link></button>
                 </div>
             </div>
             <nav className="desktop_nav">
