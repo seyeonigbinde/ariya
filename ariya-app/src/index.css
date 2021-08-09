@@ -80,7 +80,7 @@ button{
   font-weight: bolder;
 }
 .header_signup{
-  width: 40%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
