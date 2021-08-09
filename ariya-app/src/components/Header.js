@@ -35,60 +35,67 @@ const Header = () => {
             </div>
             <nav className="desktop_nav">
                 <div className="dropdown">
+                    <Link href="#">Venues </Link>
+                    <div className="dropdown-content">
+                        <Link>Event Centers</Link>
+                        <Link>Banquet Halls </Link>
+                        <Link>Outdoor Party Venues </Link>
+                    </div>
+                </div>
+                <div className="dropdown">
                     <Link href="#">Catering Services </Link>
                     <div className="dropdown-content">
-                        <Link>Wedding Catering</Link>
-                        <Link>Catering Suppliers</Link>
+                        <Link>Catering Services</Link>
+                        <Link>Wedding Cakes</Link>
+                        <Link>Party Cakes</Link>
+                        <Link>Small Chops</Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <Link href="#">Media Services  </Link>
                     <div className="dropdown-content">
-                        <Link>Wedding photographers</Link>
-                        <Link>Wedding videographers</Link>
-                    </div>
-                </div>
-                <div className="dropdown">
-                    <Link href="#">Venues </Link>
-                    <div className="dropdown-content">
-                        <Link>Wedding venues</Link>
-                        <Link>Party venues </Link>
+                        <Link>Photographers</Link>
+                        <Link>Videographers</Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <Link href="#">Entertainment </Link>
                     <div className="dropdown-content">
-                        <Link>Wedding DJ</Link>
+                        <Link>Comedians</Link>
+                        <Link>Event MCs</Link>
+                        <Link>Party DJs</Link>
                         <Link> Music bands</Link>
-                        <Link> Wedding dancers</Link>
+                        <Link>Dancing Groups</Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <Link href="#">Decorations </Link>
                     <div className="dropdown-content">
-                        <Link>Wedding lights</Link>
-                        <Link>Wedding florist</Link>
+                        <Link>Lights & Fireworks</Link>
+                        <Link>Florist</Link>
+                        <Link>Decorators</Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <Link href="#">Salon Services </Link>
                     <div className="dropdown-content">
-                        <Link>Wedding hair stylist</Link>
-                        <Link>Wedding make-up artists</Link>
+                        <Link>Bridal Hair Stylists</Link>
+                        <Link>Make-up Artists</Link>
+                        <Link>Salons</Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <Link href="#">Equipment</Link>
                     <div className="dropdown-content">
-                        <Link>Wedding tents</Link>
-                        <Link>Wedding tables & chairs</Link>
+                        <Link>Outdoor Tents Rentals</Link>
+                        <Link>Event Tables & Chairs</Link>
                     </div>
                 </div>
                 <div className="dropdown">
                     <Link href="#">Transport Services </Link>
                     <div className="dropdown-content">
-                        <Link>Wedding cars</Link>
-                        <Link>Wedding buses</Link>
+                        <Link>Wedding Cars</Link>
+                        <Link>Limousine Services</Link>
                     </div>
                 </div>
             </nav>
