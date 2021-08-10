@@ -69,8 +69,24 @@ const VendorSignup = () => {
 
 
   return (
-    <section>
-      <section className="form_section">
+    <section className="user_signup">
+    <section className="user_features">
+    <div className="user_title">
+      <h4> Features for Service Providers </h4>
+      </div>
+      <div className="user_items">
+      <h4> 5% service charge only on confirmed orders</h4>
+      </div>
+      <div className="user_items">
+        <h4>FREE SIGNUP</h4>
+        <h5>Maintain Profile and Ratings </h5><hr/>
+        <h5> 4 Packages per Service</h5><hr/>
+        <h5> Unlimited Services</h5><hr/>
+        <h5> Get Unlimited Service Orders</h5><hr/>
+        <h5>  Manage Orders Easily</h5>
+      </div>
+    </section>
+    <section className="user_form">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="businessName">Business Name:</label>
@@ -93,10 +109,9 @@ const VendorSignup = () => {
             <p className='errors'>{formErrors.password}</p>
           </div>
           <div>
-            <input type="checkbox" value="" aria-label="..." />
-           I agree to ARIYA's terms of service and consent to ARIYA's privacy policy.
+          <p><input type="checkbox" value="" aria-label="..." />   
+           I agree to ARIYA's terms of service and consent to ARIYA's privacy policy.</p>
            </div>
-          <br />
           <button disabled={disabled}>Signup</button>
         </form>
       </section>

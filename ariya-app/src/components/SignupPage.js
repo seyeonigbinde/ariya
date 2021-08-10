@@ -1,8 +1,11 @@
 import React from 'react'
 import { NavLink, Switch, Route } from 'react-router-dom'
 
+import Footer from './Footer'
+import Header from './Header'
 import UserSignup from './UserSignup'
 import VendorSignup from './VendorSignup'
+
 
 const SignupPage = () => {
 
@@ -10,13 +13,15 @@ const SignupPage = () => {
 
     return (
         <section>
-            <aside>
-
-            </aside>
-            <section>
-                <div>
-                    <NavLink activeStyle={{ borderBottom: "4px solid #81b214", color: "#095580", textDecoration: "none" }} to="/signup/user-signup"><b>Event Organizer</b></NavLink>
-                    <NavLink activeStyle={{ borderBottom: "4px solid #81b214", color: "#095580", textDecoration: "none" }} to="/signup/vendor-signup"><b>Event Vendor</b></NavLink>
+            <Header/>
+            <aside className="signup_pagelink">
+                <div className="signup_switch">
+                    <NavLink activeStyle={{ borderBottom: "4px solid ##F4D03F", 
+                    color: "#095580", textDecoration: "none", fontSize: "1.6rem", backgroundColor: "#f1f1f1" }} 
+                    to="/signup/user-signup">Event Organizer </NavLink>  
+                    <NavLink activeStyle={{ borderBottom: "4px solid ##F4D03F", 
+                    color: "#095580", textDecoration: "none", fontSize: "1.6rem", backgroundColor: "#f1f1f1"}} 
+                    to="/signup/vendor-signup"> Event Vendor </NavLink>
                 </div>
                 <div>
                     <Switch>
@@ -28,7 +33,8 @@ const SignupPage = () => {
                         </Route>
                     </Switch>
                 </div>
-            </section>
+            </aside>
+            <Footer/>
         </section>
     )
 }

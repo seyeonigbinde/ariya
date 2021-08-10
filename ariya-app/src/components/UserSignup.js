@@ -69,8 +69,20 @@ const UserSignup = () => {
 
 
   return (
-    <section>
-      <section className="form_section">
+    <section className="user_signup">
+      <section className="user_features">
+        <div className="user_title">
+        <h4> Features for Event Organizers</h4>
+        </div>
+        <div className="user_items">
+          <h4>FREE SIGNUP</h4>
+          <h5>Find Service Providers </h5><hr/>
+          <h5> Book Online</h5><hr/>
+          <h5> Organize unlimited events</h5><hr/>
+          <h5> Export order details</h5><hr/>
+        </div>
+      </section>
+      <section className="user_form">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="fullName">Full Name:</label>
@@ -93,10 +105,9 @@ const UserSignup = () => {
             <p className='errors'>{formErrors.password}</p>
           </div>
           <div>
-            <input type="checkbox" value="" aria-label="..." />
-           I agree to ARIYA's terms of service and consent to ARIYA's privacy policy.
+           <p><input type="checkbox" value="" aria-label="..." />  
+           I agree to ARIYA's terms of service and consent to ARIYA's privacy policy.</p>
            </div>
-          <br />
           <button disabled={disabled}>Signup</button>
         </form>
       </section>
