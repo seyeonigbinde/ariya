@@ -35,67 +35,67 @@ const Header = () => {
             </div>
             <nav className="desktop_nav">
                 <div className="dropdown">
-                    <Link to="/venue">Venues </Link>
+                    <Link to="/event_vendor/venue">Venues </Link>
                     <div className="dropdown-content">
-                        <Link to="/venue">Event Centers</Link>
-                        <Link to="/venue">Banquet Halls </Link>
-                        <Link to="/venue">Outdoor Party Venues </Link>
+                        <Link to="/event_vendor/venue">Event Centers</Link>
+                        <Link to="/event_vendor/venue">Banquet Halls </Link>
+                        <Link to="/event_vendor/venue">Outdoor Party Venues </Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link to="/catering">Catering Services </Link>
+                    <Link to="/event_vendor/catering">Catering Services </Link>
                     <div className="dropdown-content">
-                        <Link to="/catering">Catering Services</Link>
-                        <Link to="/catering">Wedding Cakes</Link>
-                        <Link to="/catering">Party Cakes</Link>
-                        <Link to="/catering">Small Chops</Link>
+                        <Link to="/event_vendor/catering">Catering Services</Link>
+                        <Link to="/event_vendor/catering">Wedding Cakes</Link>
+                        <Link to="/event_vendor/catering">Party Cakes</Link>
+                        <Link to="/event_vendor/catering">Small Chops</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link to="/media">Media Services  </Link>
+                    <Link to="/event_vendor/media">Media Services  </Link>
                     <div className="dropdown-content">
-                        <Link to="/media">Photographers</Link>
-                        <Link to="/media">Videographers</Link>
+                        <Link to="/event_vendor/media">Photographers</Link>
+                        <Link to="/event_vendor/media">Videographers</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link to="/entertainment">Entertainment </Link>
+                    <Link to="/event_vendor/entertainment">Entertainment </Link>
                     <div className="dropdown-content">
-                        <Link to="/entertainment">Comedians</Link>
-                        <Link to="/entertainment">Event MCs</Link>
-                        <Link to="/entertainment">Party DJs</Link>
-                        <Link to="/entertainment"> Music bands</Link>
-                        <Link to="/entertainment">Dancing Groups</Link>
+                        <Link to="/event_vendor/entertainment">Comedians</Link>
+                        <Link to="/event_vendor/entertainment">Event MCs</Link>
+                        <Link to="/event_vendor/entertainment">Party DJs</Link>
+                        <Link to="/event_vendor/entertainment"> Music bands</Link>
+                        <Link to="/event_vendor/entertainment">Dancing Groups</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link to="/decoration">Decorations </Link>
+                    <Link to="/event_vendor/decoration">Decorations </Link>
                     <div className="dropdown-content">
-                        <Link to="/decoration">Lights & Fireworks</Link>
-                        <Link to="/decoration">Florist</Link>
-                        <Link to="/decoration">Decorators</Link>
+                        <Link to="/event_vendor/decoration">Lights & Fireworks</Link>
+                        <Link to="/event_vendor/decoration">Florist</Link>
+                        <Link to="/event_vendor/decoration">Decorators</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link to="/salon">Salon Services </Link>
+                    <Link to="/event_vendor/salon">Salon Services </Link>
                     <div className="dropdown-content">
-                        <Link to="/salon">Bridal Hair Stylists</Link>
-                        <Link to="/salon">Make-up Artists</Link>
-                        <Link to="/salon">Salons</Link>
+                        <Link to="/event_vendor/salon">Bridal Hair Stylists</Link>
+                        <Link to="/event_vendor/salon">Make-up Artists</Link>
+                        <Link to="/event_vendor/salon">Salons</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link to="/equipment">Equipment</Link>
+                    <Link to="/event_vendor/equipment">Equipment</Link>
                     <div className="dropdown-content">
-                        <Link to="/equipment">Outdoor Tents Rentals</Link>
-                        <Link to="/equipment">Event Tables & Chairs</Link>
+                        <Link to="/event_vendor/equipment">Outdoor Tents Rentals</Link>
+                        <Link to="/event_vendor/equipment">Event Tables & Chairs</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link to="/transport">Transport Services </Link>
+                    <Link to="/event_vendor/transport">Transport Services </Link>
                     <div className="dropdown-content">
-                        <Link to="/transport">Wedding Cars</Link>
-                        <Link to="/transport">Limousine Services</Link>
+                        <Link to="/event_vendor/transport">Wedding Cars</Link>
+                        <Link to="/event_vendor/transport">Limousine Services</Link>
                     </div>
                 </div>
             </nav>
