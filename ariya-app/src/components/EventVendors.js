@@ -9,6 +9,7 @@ import Media from './Media'
 import Equipment from './Equipment'
 import Decoration from './Decoration'
 import Catering from './Catering'
+import Entertainment from './Entertainment'
 
 const EventVendors = () => {
 
@@ -38,6 +39,9 @@ const EventVendors = () => {
                         </Route>
                         <Route path="/event_vendor/decoration">
                             <Decoration />
+                        </Route>
+                        <Route path="/event_vendor/entertainment">
+                            <Entertainment />
                         </Route>
                         <Route path="/event_vendor/equipment">
                             <Equipment />

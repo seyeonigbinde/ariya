@@ -31,7 +31,7 @@ const Venue = () => {
                 </div>
             </div>
             <div className="vendor_card">
-                <div className="vendor_card_package">
+                <div className="vendor_card_package2">
                     Economy
                         </div>
                 <div className="vendor_card_name">

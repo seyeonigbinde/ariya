@@ -311,18 +311,20 @@ nav{
 }
 .vendor_card{
   width: 30%;
-  height: 35vh;
   border-radius: 5px;
-  padding: 2% 2%;
+  padding: 1% 2%;
   margin: 1% 1%;
   border: 1px solid #095580;
 }
-.vendor_card_package{
+.vendor_card_package, .vendor_card_package2{
   color: darkred;
   font-size: 0.7rem;
   text-align: right;
   padding: 1%;
   font-weight: bold;
+}
+.vendor_card_package2{
+  color: darkgreen;
 }
 .vendor_card_name h4{
  font-size: 1.5rem;
