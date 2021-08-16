@@ -5,14 +5,14 @@ import formSchema from '../utils/formSchema'
 import axios from 'axios'
 
 const initialFormValues = {
-  businessName: '',
+  bizName: '',
   phone: '',
   email: '',
   password: '',
 }
 
 const initialFormErrors = {
-  businessName: '',
+  bizName: '',
   phone: '',
   email: '',
   password: '',
@@ -51,7 +51,7 @@ const VendorSignup = () => {
   const handleSubmit = e => {
     e.preventDefault();
     const newUser = {
-      businessName: formValues.businessName.trim(),
+      bizName: formValues.bizName.trim(),
       phone: formValues.phone.trim(),
       email: formValues.email.trim(),
       password: formValues.password.trim(),
@@ -89,8 +89,8 @@ const VendorSignup = () => {
     <section className="user_form">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="businessName">Business Name:</label>
-            <input className="form-control" onChange={handleChange} value={formValues.businessName} name="businessName" id="businessName" placeholder="Business Name" />
+            <label htmlFor="bizName">Business Name:</label>
+            <input className="form-control" onChange={handleChange} value={formValues.bizName} name="bizName" id="bizName" placeholder="Business Name" />
           </div>
           <p className='errors'>{formErrors.fullName}</p>
           <div className="form-group">

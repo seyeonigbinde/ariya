@@ -25,42 +25,42 @@ const Homepage = () => {
             <section className="categories">
                 <h2>Search by Categories </h2>
                 <div className="categories_container">
-                    <Link className="categories_list">
+                    <Link to="/venue" className="categories_list">
                         <i className="fas fa-map-marker-alt fa-5x"></i>
                         <h4>Venues</h4>
                         <p>Event Centers, Banquet Halls, Outdoor Party Venues ... </p>
                     </Link>
-                    <Link className="categories_list">
+                    <Link to="/media" className="categories_list">
                         <i className="fas fa-camera fa-5x"></i>
                         <h4>Media</h4>
                         <p>Photographers, Videographers ...</p>
                     </Link>
-                    <Link className="categories_list">
+                    <Link to="/catering" className="categories_list">
                         <i className="fas fa-utensils fa-5x"></i>
                         <h4>Food</h4>
                         <p>Catering Services, Wedding Cakes, Party Cakes, Small Chops ...</p>
                     </Link>
-                    <Link className="categories_list">
+                    <Link  to="/entertainment" className="categories_list">
                         <i className="fas fa-music fa-5x"></i>
                         <h4>Entertainment</h4>
                         <p>Comedians, Music Bands, MCs, DJs, Dancing Groups ...</p>
                     </Link>
-                    <Link className="categories_list">
+                    <Link  to="/decoration" className="categories_list">
                         <i className="fas fa-gift fa-5x"></i>
                         <h4>Decoration</h4>
                         <p>Florists, Decorators, Lights, Fireworks ...</p>
                     </Link>
-                    <Link className="categories_list">
+                    <Link to="/salon" className="categories_list">
                         <i className="fas fa-cut fa-5x"></i>
                         <h4>Salon Services</h4>
                         <p>Salons, Bridal Hair Stylist , Makeup Services ... </p>
                     </Link>
-                    <Link className="categories_list">
+                    <Link to="/equipment" className="categories_list">
                         <i className="far fa-lightbulb fa-5x"></i>
                         <h4>Equipment</h4>
                         <p>Outdoor Tents Rentals, Event Tables & Chairs... </p>
                     </Link>
-                    <Link className="categories_list">
+                    <Link to="/transport" className="categories_list">
                         <i className="fas fa-car fa-5x"></i>
                         <h4>Transportation</h4>
                         <p>Wedding Cars, Transport Services, Limousine Services etc</p>

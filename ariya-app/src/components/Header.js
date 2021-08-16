@@ -17,7 +17,7 @@ const Header = () => {
                             <div className="dropdown-content">
                                 <Link href="#">Catering Services </Link>
                                 <Link href="#">Media Services  </Link>
-                                <Link href="#">Venues </Link>
+                                <Link to="/venue">Venues </Link>
                                 <Link href="#">Entertainment </Link>
                                 <Link href="#">Decorations </Link>
                                 <Link href="#">Salon Services </Link>
@@ -35,67 +35,67 @@ const Header = () => {
             </div>
             <nav className="desktop_nav">
                 <div className="dropdown">
-                    <Link href="#">Venues </Link>
+                    <Link to="/venue">Venues </Link>
                     <div className="dropdown-content">
-                        <Link>Event Centers</Link>
-                        <Link>Banquet Halls </Link>
-                        <Link>Outdoor Party Venues </Link>
+                        <Link to="/venue">Event Centers</Link>
+                        <Link to="/venue">Banquet Halls </Link>
+                        <Link to="/venue">Outdoor Party Venues </Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link href="#">Catering Services </Link>
+                    <Link to="/catering">Catering Services </Link>
                     <div className="dropdown-content">
-                        <Link>Catering Services</Link>
-                        <Link>Wedding Cakes</Link>
-                        <Link>Party Cakes</Link>
-                        <Link>Small Chops</Link>
+                        <Link to="/catering">Catering Services</Link>
+                        <Link to="/catering">Wedding Cakes</Link>
+                        <Link to="/catering">Party Cakes</Link>
+                        <Link to="/catering">Small Chops</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link href="#">Media Services  </Link>
+                    <Link to="/media">Media Services  </Link>
                     <div className="dropdown-content">
-                        <Link>Photographers</Link>
-                        <Link>Videographers</Link>
+                        <Link to="/media">Photographers</Link>
+                        <Link to="/media">Videographers</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link href="#">Entertainment </Link>
+                    <Link to="/entertainment">Entertainment </Link>
                     <div className="dropdown-content">
-                        <Link>Comedians</Link>
-                        <Link>Event MCs</Link>
-                        <Link>Party DJs</Link>
-                        <Link> Music bands</Link>
-                        <Link>Dancing Groups</Link>
+                        <Link to="/entertainment">Comedians</Link>
+                        <Link to="/entertainment">Event MCs</Link>
+                        <Link to="/entertainment">Party DJs</Link>
+                        <Link to="/entertainment"> Music bands</Link>
+                        <Link to="/entertainment">Dancing Groups</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link href="#">Decorations </Link>
+                    <Link to="/decoration">Decorations </Link>
                     <div className="dropdown-content">
-                        <Link>Lights & Fireworks</Link>
-                        <Link>Florist</Link>
-                        <Link>Decorators</Link>
+                        <Link to="/decoration">Lights & Fireworks</Link>
+                        <Link to="/decoration">Florist</Link>
+                        <Link to="/decoration">Decorators</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link href="#">Salon Services </Link>
+                    <Link to="/salon">Salon Services </Link>
                     <div className="dropdown-content">
-                        <Link>Bridal Hair Stylists</Link>
-                        <Link>Make-up Artists</Link>
-                        <Link>Salons</Link>
+                        <Link to="/salon">Bridal Hair Stylists</Link>
+                        <Link to="/salon">Make-up Artists</Link>
+                        <Link to="/salon">Salons</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link href="#">Equipment</Link>
+                    <Link to="/equipment">Equipment</Link>
                     <div className="dropdown-content">
-                        <Link>Outdoor Tents Rentals</Link>
-                        <Link>Event Tables & Chairs</Link>
+                        <Link to="/equipment">Outdoor Tents Rentals</Link>
+                        <Link to="/equipment">Event Tables & Chairs</Link>
                     </div>
                 </div>
                 <div className="dropdown">
-                    <Link href="#">Transport Services </Link>
+                    <Link to="/transport">Transport Services </Link>
                     <div className="dropdown-content">
-                        <Link>Wedding Cars</Link>
-                        <Link>Limousine Services</Link>
+                        <Link to="/transport">Wedding Cars</Link>
+                        <Link to="/transport">Limousine Services</Link>
                     </div>
                 </div>
             </nav>
