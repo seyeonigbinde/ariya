@@ -10,7 +10,7 @@ const Header = () => {
             <div className="header_banner">
                 <div className="header_logo">
                     {/* <img src="" alt=""/> */}
-                    <h1>ARIYA</h1>
+                    <Link to="/"> <h1>ARIYA</h1></Link>
                     <nav className="responsive_nav">
                         <div className="dropdown">
                             <i className="fas fa-bars fa-2x"></i>
@@ -30,7 +30,7 @@ const Header = () => {
                 <div className="header_signup">
                     <button><Link to="/signup/user-signup">User Signup</Link></button>
                     <button><Link to="/signup/vendor-signup">Vendor Signup</Link></button>
-                    <button><Link>Login</Link></button>
+                    <button><Link to="/login">Login</Link></button>
                 </div>
             </div>
             <nav className="desktop_nav">

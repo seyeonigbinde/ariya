@@ -17,9 +17,8 @@ const Homepage = () => {
                     <h1><b>Find Local Event Service Providers.</b></h1>
                     <h5>Nigeria No.1 Marketplace for Event Planners</h5>
                     <form>
-                        <label>
-                            <input type="search" className="home_searchform" placeholder="Search Here" />
-                        Search</label>
+                        <input type="search" className="home_searchform" placeholder="Search Here" />
+                        <button>Search </button>
                     </form>
                 </div>
             </div>
