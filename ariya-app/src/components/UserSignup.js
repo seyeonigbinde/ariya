@@ -79,7 +79,7 @@ const UserSignup = () => {
           <h5>Find Service Providers </h5><hr/>
           <h5> Book Online</h5><hr/>
           <h5> Organize unlimited events</h5><hr/>
-          <h5> Export order details</h5><hr/>
+          <h5> Export order details</h5>
         </div>
       </section>
       <section className="user_form">

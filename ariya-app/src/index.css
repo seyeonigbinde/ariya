@@ -227,7 +227,7 @@ nav{
   width: 40%;
   border: 1px solid #095580;
   border-radius: 5px;
-  margin-top: 1%;
+  margin: 1%;
 }
 .user_form button{
  margin-left: 40%;
@@ -427,6 +427,23 @@ footer{
   }
   .categories_list{
     width: 45%;
+  }
+  .user_features{
+    width:80%;
+  }
+  .user_form{
+    width:80%;
+    margin:3% 10%;
+  }
+  .vendor_banner{
+    height: 25vh;
+  }
+  .vendor_searchform{
+    margin-top: 29%;
+  }
+  .vendor_card{
+    width: 90%;
+    margin: 2%;
   }
   .howitworks_items, 
   .footer_items{

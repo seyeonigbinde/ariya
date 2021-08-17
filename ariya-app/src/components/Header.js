@@ -15,14 +15,14 @@ const Header = () => {
                         <div className="dropdown">
                             <i className="fas fa-bars fa-2x"></i>
                             <div className="dropdown-content">
-                                <Link href="#">Catering Services </Link>
-                                <Link href="#">Media Services  </Link>
-                                <Link to="/venue">Venues </Link>
-                                <Link href="#">Entertainment </Link>
-                                <Link href="#">Decorations </Link>
-                                <Link href="#">Salon Services </Link>
-                                <Link href="#">Equipment</Link>
-                                <Link href="#">Transport Services </Link>
+                                <Link to="/event_vendor/catering">Catering Services </Link>
+                                <Link to="/event_vendor/media">Media Services  </Link>
+                                <Link to="/event_vendor/venue">Venues </Link>
+                                <Link to="/event_vendor/entertainment">Entertainment </Link>
+                                <Link to="/event_vendor/decoration">Decorations </Link>
+                                <Link to="/event_vendor/salon">Salon Services </Link>
+                                <Link to="/event_vendor/equipment">Equipment</Link>
+                                <Link to="/event_vendor/transport">Transport Services </Link>
                             </div>
                         </div>
                     </nav>

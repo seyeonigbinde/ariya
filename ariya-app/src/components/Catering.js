@@ -16,7 +16,7 @@ const Catering = () => {
                 <h4>VixPlus Catering Services </h4>
             </div>
             <div className="vendor_card_category">
-                <p> Wedding Catering</p>
+                <p> Catering Services</p>
             </div>
             <div className="vendor_card_logo">
                 <img src={ariya_banner} alt="" />
@@ -35,17 +35,17 @@ const Catering = () => {
                 Economy
                     </div>
             <div className="vendor_card_name">
-                <h4>Divine Grace</h4>
+                <h4>Cakes N Cream</h4>
             </div>
             <div className="vendor_card_category">
-                <p> Event Center</p>
+                <p> Wedding Cake</p>
             </div>
             <div className="vendor_card_logo">
                 <img src={ariya_banner} alt="" />
             </div>
             <div className="vendor_card_footer">
                 <div>
-                    <h5> N500,000</h5>
+                    <h5> N50,000</h5>
                 </div>
                 <div>
                     <button>View Profile</button>
