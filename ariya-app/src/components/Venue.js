@@ -1,10 +1,17 @@
 import React from 'react'
 import ariya_banner from '../images/ariya_banner.jpeg'
+import Popup from "reactjs-popup";
+
+const contentStyle = {
+    maxWidth: "600px",
+    width: "90%",
+    borderColor: "#095580",
+    color: "#095580",
+    backgroundColor: "#fff"
+};
+
 
 const Venue = () => {
-
-
-
 
     return (
         <>
@@ -26,7 +33,31 @@ const Venue = () => {
                         <h5> N1,000,000</h5>
                     </div>
                     <div>
-                        <button>View Profile</button>
+                        <Popup
+                            trigger={<button>View Profile</button>}
+                            modal
+                            contentStyle={contentStyle}>
+                            {close => (
+                                <div className="modal">
+                                    <a className="close" onClick={close}>
+                                        &times;
+                                    </a>
+                                    <div className="header"> Divine Grace </div>
+                                    <div className="content">
+                                        {" "}
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a
+                                        nostrum. Dolorem, repellat quidem ut, minima sint vel eveniet
+                                        quibusdam voluptates delectus doloremque, explicabo tempore dicta
+                                        adipisci fugit amet dignissimos?
+                                        <br />
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
+                                        sit commodi beatae optio voluptatum sed eius cumque, delectus saepe
+                                        repudiandae explicabo nemo nam libero ad, doloribus, voluptas rem
+                                        alias. Vitae?
+                                    </div>
+                                </div>
+                            )}
+                        </Popup>
                     </div>
                 </div>
             </div>
