@@ -415,7 +415,7 @@ footer{
 }
 .modal > .content {
   width: 100%;
-  padding: 10px 5px;
+  padding: 3% 2%;
 }
 .modal > .close {
   cursor: pointer;
