@@ -27,7 +27,11 @@ const EventVendors = () => {
             </section>
             <section className="vendor_page">
                 <section className="vendor_sidebar">
-                    <h5>Budget</h5>
+                    <h4>Budget</h4><br/>
+                    <form>
+                    <input className="form-control" type="checkbox" value="" aria-label="..." /><label> Standard</label><br/>
+                    <input className="form-control" type="checkbox" value="" aria-label="..."/> <label>Economy </label>
+                    </form>
                 </section>
                 <section className="vendor_dashboard">
                     <Switch>

@@ -39,7 +39,7 @@ const Venue = () => {
                             contentStyle={contentStyle}>
                             {close => (
                                 <div className="modal">
-                                    <a className="close" onClick={close}>
+                                    <a href="#1"className="close" onClick={close}>
                                         &times;
                                     </a>
                                     <div className="header"> Divine Grace </div>
@@ -85,7 +85,7 @@ const Venue = () => {
                             contentStyle={contentStyle}>
                             {close => (
                                 <div className="modal">
-                                    <a className="close" onClick={close}>
+                                    <a href="#1" className="close" onClick={close}>
                                         &times;
                                     </a>
                                     <div className="header"> Divine Grace </div>
@@ -131,7 +131,7 @@ const Venue = () => {
                             contentStyle={contentStyle}>
                             {close => (
                                 <div className="modal">
-                                    <a className="close" onClick={close}>
+                                    <a  href="#1" className="close" onClick={close}>
                                         &times;
                                     </a>
                                     <div className="header"> Divine Grace </div>

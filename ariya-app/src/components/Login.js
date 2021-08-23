@@ -39,7 +39,7 @@ const Login = () => {
   return (
     <section>
     <Header/>
-      <section className="user_form">
+      <section className="user_form2">
         <form onSubmit={login}>
           <div className="form-group">
             <label htmlFor="email">Email Address:</label>

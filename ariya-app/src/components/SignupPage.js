@@ -17,10 +17,10 @@ const SignupPage = () => {
             <aside className="signup_pagelink">
                 <div className="signup_switch">
                     <NavLink activeStyle={{ borderBottom: "4px solid ##F4D03F", 
-                    color: "#095580", textDecoration: "none", fontSize: "1.6rem", backgroundColor: "#f1f1f1" }} 
-                    to="/signup/user-signup">Event Organizer </NavLink>  
+                    color: "#095580", textDecoration: "none", fontSize: "1.2rem", backgroundColor: "#f1f1f1", borderRadius: "5px", padding: "1%" }} 
+                    to="/signup/user-signup">Event Organizer </NavLink>  ||
                     <NavLink activeStyle={{ borderBottom: "4px solid ##F4D03F", 
-                    color: "#095580", textDecoration: "none", fontSize: "1.6rem", backgroundColor: "#f1f1f1"}} 
+                    color: "#095580", textDecoration: "none", fontSize: "1.2rem", backgroundColor: "#f1f1f1", borderRadius: "5px", padding: "1%"}} 
                     to="/signup/vendor-signup"> Event Vendor </NavLink>
                 </div>
                 <div>

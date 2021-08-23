@@ -225,9 +225,9 @@ nav{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
 }
-.user_form{
+.user_form, .user_form2{
   width: 40%;
   border: 1px solid #095580;
   border-radius: 5px;
@@ -247,6 +247,23 @@ nav{
 .user_form input {
  border-radius: 5px;
 }
+.user_form2{
+  margin-left: 29%;
+}
+.user_form2 button{
+  margin-left: 40%;
+  background-color: #095580;
+  color: #fff;
+  padding: 2% 6%;
+ }
+ .user_form2 label {
+   display: inline-block;
+   width: 25%;
+   padding: 0 1%;
+ }
+ .user_form2 input {
+  border-radius: 5px;
+ }
 .user_features{
   width: 40%;
   border: 1px solid #095580;
@@ -310,6 +327,7 @@ nav{
   background-color:#095580;
   color: #fff;
   padding: 2% 2%;
+  text-align: center;
 }
 .vendor_dashboard{
   width:80%;
