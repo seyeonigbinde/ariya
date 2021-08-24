@@ -345,7 +345,8 @@ nav{
 .vendor_card:hover{
   border: 2px solid #095580;
 }
-.vendor_card_package, .vendor_card_package2{
+.vendor_card_package, 
+.vendor_card_package2{
   color: darkred;
   font-size: 0.7rem;
   text-align: right;
@@ -380,7 +381,6 @@ nav{
 footer{
   background-color: #095580;
   color: #fff;
-  /* margin-top: 4%; */
 }
 .footer_container{
   display: flex;
