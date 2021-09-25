@@ -164,10 +164,24 @@ nav {
   min-width: 9rem;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  right: 7%;
 }
-
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 9rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0.1%;
+}
 .dropdown-content a {
+  color: #095580;
+  font-size: 0.8rem;
+  padding: 6px 6px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content2 a {
   color: #095580;
   font-size: 0.8rem;
   padding: 6px 6px;
@@ -180,6 +194,13 @@ nav {
 }
 
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content2 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content2 {
   display: block;
 }
 .banner_bg {
@@ -530,7 +551,7 @@ footer {
   }
   .responsive_nav {
     display: inline;
-    margin-left: 40%;
+    margin-left: 45%;
   }
   .desktop_nav {
     display: none;
@@ -546,6 +567,9 @@ footer {
   }
   .categories h2 {
     font-size: 1.8rem;
+  }
+  .categories {
+    margin-top: 30%;
   }
   .categories_list {
     width: 45%;
@@ -572,6 +596,9 @@ footer {
   .vendor_card {
     width: 90%;
     margin: 2%;
+  }
+  .howitworks {
+    margin-top: 30%;
   }
   .howitworks_items,
   .footer_items {
